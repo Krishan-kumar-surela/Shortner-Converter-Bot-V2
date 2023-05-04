@@ -16,7 +16,7 @@ DATABASE_NAME = os.environ.get("DATABASE_NAME", "Kapil2Saini")
 DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://Kapil2Saini:Kapil@88Krishan@cluster0.43cuqee.mongodb.net/?retryWrites=true&w=majority") 
 OWNER_ID =  int(os.environ.get("OWNER_ID", "6199578420")) 
 ADMINS.append(OWNER_ID) if OWNER_ID not in ADMINS else []
-ADMINS.append(Id Owned Id)
+ADMINS.append(6199578420)
 #  Optionnal variables
 LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "https://t.me/kpslinkuser")) 
 UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "https://t.me/Kpslink_official") # For Force Subscription
