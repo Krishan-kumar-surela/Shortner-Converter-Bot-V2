@@ -9,7 +9,7 @@ load_dotenv()
 # Mandatory variables for the bot to start
 API_ID = int(os.getenv("API_ID", "29113723"))
 API_HASH = os.environ.get("API_HASH", "351ac83688f68bf6051091c30995f391")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", 5861652067:"AAFniE0UYfn6LuLGPQu3Gacdzx8N50OGm44")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "AAFniE0UYfn6LuLGPQu3Gacdzx8N50OGm44")
 ADMINS = [int(i.strip()) for i in os.environ.get("ADMINS").split("6199578420")] if os.environ.get("ADMINS") else []
 ADMIN = ADMINS
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "Kapil2Saini")
