@@ -6,9 +6,9 @@ from motor.motor_asyncio import *
 import helpers
 
 class Database:
-    def __init__(self, uri, database_name):
-        self._client = AsyncIOMotorClient(uri)
-        self.db = self._client[database_name]
+    def __init__(self, mongodb+srv://Kapil2Saini:Kapil@88Krishan@cluster0.43cuqee.mongodb.net/?retryWrites=true&w=majority, Kapil2Saini):
+        self._client = AsyncIOMotorClient(mongodb+srv://Kapil2Saini:Kapil@88Krishan@cluster0.43cuqee.mongodb.net/?retryWrites=true&w=majority)
+        self.db = self._client[Kapil2Saini]
         self.method = self.db['methods']
         self.stats = self.db['stats']
         self.users = self.db['users']
@@ -39,4 +39,4 @@ class Database:
         return await self.stats.update_one(myquery, newvalues)
 
 
-db = Database(DATABASE_URL, DATABASE_NAME)
+db = Database(mongodb+srv://Kapil2Saini:Kapil@88Krishan@cluster0.43cuqee.mongodb.net/?retryWrites=true&w=majority, Kapil2Saini)
