@@ -23,7 +23,7 @@ If You Want Any **Other Shortner** Link Converter Bot Instead Of Shortnerfly tha
 '''
 
 HELP_MESSAGE = '''**Hello, {}
-I Am ShortnerFly, Bulk Link Converter Bot. I Can Convert Links Directly From Your ShortnerFly Account,**
+I Am KPSLINK, Bulk Link Converter Bot. I Can Convert Links Directly From Your KPSLINK.com Account,**
     
 1. Go To 👉 https://kpslink.com/member/tools/api  
 2. Than **Copy API** Key
